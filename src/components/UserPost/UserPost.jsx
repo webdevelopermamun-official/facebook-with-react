@@ -14,7 +14,7 @@ const UserPost = ({postContent, postImages}) => {
                 <div className="user-post-fild">
                 <div className="user-post-area-header">
                     <div className="post-user-info">
-                    <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/369708769_845253790558567_2093964972237688838_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=4da83f&_nc_ohc=rOK2GWuD_NUAX-oTPhK&_nc_ht=scontent.fdac41-1.fna&oh=00_AfBLwRNB2sGJseNKb5sk5kKTvSnoGsxlqoHkJB70Gl4B0Q&oe=656EED6D" alt="" />
+                    <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                     <div className="post-user-content">
                         <h3><a href="">Mamun Mirdha</a></h3>
                         <span>18 hours ago· </span>
@@ -54,7 +54,7 @@ const UserPost = ({postContent, postImages}) => {
                     </div>
                     <div className="post-comment-box">
                     <div className="comments-people-info">
-                        <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/310964331_1174854183375093_7878853155140773839_n.jpg?stp=c0.0.100.100a_dst-jpg_p100x100&_nc_cat=100&ccb=1-7&_nc_sid=5740b7&_nc_ohc=p8kVoLMapU0AX93afEI&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCVAKD-VZv0Zwn0hUg4J2EmVETN95xtoJCLNm5DCHXgzA&oe=6571A648" alt="" />
+                        <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
 
                         <div className="people-comments-detels">
                         <div className="personal-details">
@@ -70,7 +70,7 @@ const UserPost = ({postContent, postImages}) => {
                     </div>
                     <div className="create-new-comment">
                         <div className="current-auth-photo">
-                        <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/369708769_845253790558567_2093964972237688838_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=4da83f&_nc_ohc=rOK2GWuD_NUAX-oTPhK&_nc_ht=scontent.fdac41-1.fna&oh=00_AfBLwRNB2sGJseNKb5sk5kKTvSnoGsxlqoHkJB70Gl4B0Q&oe=656EED6D" alt="" />
+                        <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                         </div>
                         <div className="current-auth-comment-box">
                         <form action="">

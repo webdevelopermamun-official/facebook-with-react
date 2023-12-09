@@ -68,7 +68,7 @@ const Home = () => {
                     <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" style= {{color: "var(--black-primary-icon)"}}><path d="M3 9.5a9 9 0 1 1 18 0v2.927c0 1.69.475 3.345 1.37 4.778a1.5 1.5 0 0 1-1.272 2.295h-4.625a4.5 4.5 0 0 1-8.946 0H2.902a1.5 1.5 0 0 1-1.272-2.295A9.01 9.01 0 0 0 3 12.43V9.5zm6.55 10a2.5 2.5 0 0 0 4.9 0h-4.9z"></path></svg>
                   </a></li>
                   <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/369708769_845253790558567_2093964972237688838_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=4da83f&_nc_ohc=rOK2GWuD_NUAX-oTPhK&_nc_ht=scontent.fdac41-1.fna&oh=00_AfBLwRNB2sGJseNKb5sk5kKTvSnoGsxlqoHkJB70Gl4B0Q&oe=656EED6D" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span><IoIosArrowDown /></span>
                     </a></li>
                 </ul>
@@ -86,7 +86,7 @@ const Home = () => {
               <div className="sidebar-inner-container">
                 <ul>
                   <li><a href="">
-                    <img className="auth-img" src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/369708769_845253790558567_2093964972237688838_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=4da83f&_nc_ohc=rOK2GWuD_NUAX-oTPhK&_nc_ht=scontent.fdac41-1.fna&oh=00_AfBLwRNB2sGJseNKb5sk5kKTvSnoGsxlqoHkJB70Gl4B0Q&oe=656EED6D" alt="" />
+                    <img className="auth-img" src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                     <span>Mamun Mirdha</span>
                   </a></li>
                   <li><a href="">
@@ -171,7 +171,7 @@ const Home = () => {
                 <div className="story-area auth-story">
                   <div className="auth-content">
                     <div className="auth-image">
-                        <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/369708769_845253790558567_2093964972237688838_n.jpg?stp=dst-jpg_p160x160&_nc_cat=103&ccb=1-7&_nc_sid=11e7ab&_nc_ohc=pwEDMOsYuq0AX9WZXlb&_nc_ht=scontent.fdac41-1.fna&oh=00_AfDImN-qYWnUQ6crXPF1RfA9u_UA5otcZSPFk0wrULvVQw&oe=6570E7AD" alt="" />
+                        <img src="https://www.webdevelopermamun.me/wp-content/uploads/2023/05/Web-Developer-Mamun-2.jpg" alt="" />
                     </div>
                     <div className="auth-box">
                       <span><GoPlus /></span>
@@ -196,7 +196,7 @@ const Home = () => {
               <div className="post-area">
                 <div className="post-area-content">
                   <div className="user-post-fild">
-                    <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/369708769_845253790558567_2093964972237688838_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=11e7ab&_nc_ohc=pwEDMOsYuq0AX9WZXlb&_nc_ht=scontent.fdac41-1.fna&oh=00_AfD-5v6C2V30JXou1LjOnUC3W9RkQANw3ncnWdwjI8lukA&oe=6570E7AD" alt="" />
+                    <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                     
                     <button>{`What's on your mind, Mamun?`}</button>
                   </div>
@@ -239,7 +239,7 @@ const Home = () => {
                   </div>
                   <ul>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/369708769_845253790558567_2093964972237688838_n.jpg?stp=cp0_dst-jpg_p50x50&_nc_cat=103&ccb=1-7&_nc_sid=068245&_nc_ohc=pwEDMOsYuq0AX9WZXlb&_nc_ht=scontent.fdac41-1.fna&oh=00_AfBcynfKmEJuKsE-VhrAMfFfIkc8Qw4kuc8-ZHkyOv9IWA&oe=6570E7AD" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>Mamun Mirdha</span>
                     </a></li>
                     <li><a href="">
@@ -273,67 +273,67 @@ const Home = () => {
                   </div>
                   <ul>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/404822770_350039201050446_2985178049171718853_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=5740b7&_nc_ohc=TOoknjsNQSwAX8hneoV&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCStfwBIr574MkBqNZ2zWWluzLlQSGoLtHUzEtIPWzG-A&oe=65724DB3" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>Møhâmmàd Ømõr Gåzî</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/387815552_3494756454110075_2828672575439126122_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=11e7ab&_nc_ohc=AXtVDUrMEB4AX-Xcasl&_nc_ht=scontent.fdac41-1.fna&oh=00_AfA9k6yTM7bSk4LLGo4cUA8hKIwCIiI4CCNqvvpu7boodQ&oe=6570D327" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>Shafikul Islam Ashik</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/274523920_1095082897958088_5302319711840824464_n.jpg?stp=c0.0.40.40a_cp0_dst-jpg_p40x40&_nc_cat=110&ccb=1-7&_nc_sid=5740b7&_nc_ohc=xYaWQZUbJoEAX8GJBeb&_nc_ht=scontent.fdac41-1.fna&oh=00_AfDmhjP_0hwlESi8dDC9wiLRwcQ9bLceIjy19ckxPNNZyQ&oe=65721713" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>Imam Hossain</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/317843483_3275110492751414_7761639408220872129_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=103&ccb=1-7&_nc_sid=11e7ab&_nc_ohc=5YGR9im0NQIAX8jrhKI&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCVpHVCyY8L5muuYRshlQ1t7xKWNrdFAxF-IhtVSzO1kQ&oe=65718D45" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>Kawsar Ahmed Hridoy</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/364180345_304924058608743_5587164428920709666_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=105&ccb=1-7&_nc_sid=5740b7&_nc_ohc=uGK9shkU--cAX8QeFkS&_nc_oc=AQkPl8_Ors-PcdFSzAIqwoJR6IEvazvLPxrFl2r13jfL0NI9n-z9pGFoCeqJXNKeiPE&_nc_ht=scontent.fdac41-1.fna&oh=00_AfDytXIP59E66jZA3epIBnllKE6MSB3K4zRHZZLFbz44-A&oe=65710B49" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>Sahariar Hasan</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/318408267_195294116406835_1799829092134384270_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=SrGpSLR8aO0AX-HWPe9&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCyYybDnw7D1x8DcNsOvQ8X6xcD1btKgav2vkLwhL7teA&oe=65717045" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>মাতুব্বর সাহেব</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/318408267_195294116406835_1799829092134384270_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=SrGpSLR8aO0AX-HWPe9&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCyYybDnw7D1x8DcNsOvQ8X6xcD1btKgav2vkLwhL7teA&oe=65717045" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>মাতুব্বর সাহেব</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/318408267_195294116406835_1799829092134384270_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=SrGpSLR8aO0AX-HWPe9&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCyYybDnw7D1x8DcNsOvQ8X6xcD1btKgav2vkLwhL7teA&oe=65717045" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>মাতুব্বর সাহেব</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/318408267_195294116406835_1799829092134384270_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=SrGpSLR8aO0AX-HWPe9&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCyYybDnw7D1x8DcNsOvQ8X6xcD1btKgav2vkLwhL7teA&oe=65717045" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>মাতুব্বর সাহেব</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/318408267_195294116406835_1799829092134384270_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=SrGpSLR8aO0AX-HWPe9&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCyYybDnw7D1x8DcNsOvQ8X6xcD1btKgav2vkLwhL7teA&oe=65717045" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>মাতুব্বর সাহেব</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/318408267_195294116406835_1799829092134384270_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=SrGpSLR8aO0AX-HWPe9&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCyYybDnw7D1x8DcNsOvQ8X6xcD1btKgav2vkLwhL7teA&oe=65717045" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>মাতুব্বর সাহেব</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/318408267_195294116406835_1799829092134384270_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=SrGpSLR8aO0AX-HWPe9&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCyYybDnw7D1x8DcNsOvQ8X6xcD1btKgav2vkLwhL7teA&oe=65717045" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>মাতুব্বর সাহেব</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/318408267_195294116406835_1799829092134384270_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=SrGpSLR8aO0AX-HWPe9&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCyYybDnw7D1x8DcNsOvQ8X6xcD1btKgav2vkLwhL7teA&oe=65717045" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>মাতুব্বর সাহেব</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/318408267_195294116406835_1799829092134384270_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=SrGpSLR8aO0AX-HWPe9&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCyYybDnw7D1x8DcNsOvQ8X6xcD1btKgav2vkLwhL7teA&oe=65717045" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>মাতুব্বর সাহেব</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/318408267_195294116406835_1799829092134384270_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=SrGpSLR8aO0AX-HWPe9&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCyYybDnw7D1x8DcNsOvQ8X6xcD1btKgav2vkLwhL7teA&oe=65717045" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>মাতুব্বর সাহেব</span>
                     </a></li>
                     <li><a href="">
-                      <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-1/318408267_195294116406835_1799829092134384270_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=SrGpSLR8aO0AX-HWPe9&_nc_ht=scontent.fdac41-1.fna&oh=00_AfCyYybDnw7D1x8DcNsOvQ8X6xcD1btKgav2vkLwhL7teA&oe=65717045" alt="" />
+                      <img src="https://www.shareicon.net/data/256x256/2016/09/15/829466_man_512x512.png" alt="" />
                       <span>মাতুব্বর সাহেব</span>
                     </a></li>
                   </ul>
