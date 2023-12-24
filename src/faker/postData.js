@@ -7,6 +7,7 @@ const postData = [
         Builder: Elementor pro
         
         #hossainmunna #wordpress #ecommercewebsite #shoes #landingpagedesign`
+    },
     {
         id: 2,
         image: "https://media.licdn.com/dms/image/D5622AQFI4kWWQl5ydg/feedshare-shrink_800/0/1700506107316?e=1704326400&v=beta&t=9mgdlWlIo-0nIgsTT0NJ_C0AXc2UiDUTrPGkwVuMyLQ",

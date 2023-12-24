@@ -61,11 +61,62 @@
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        cursor: pointer;
 
                         &:hover{
                             background-color: var(--main-hover);
                         }
 
+                    }
+                    .post-edit-all-future{
+                        position: relative;
+
+                        .post-future-item{
+                            ul{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5px;
+                                justify-content: center;
+
+                                li{
+                                    a{
+                                        font-family: "Segoe";
+                                        display: flex;
+                                        justify-content: flex-start;
+                                        gap: 15px;
+                                        text-align: left;
+                                        width: 100%;
+                                        height: fit-content;
+                                        padding: 8px;
+                                        border-radius: 4px;
+                                        color: #050505;
+                                        font-weight: 500;
+                                        font-size: 15px;
+                                        line-height: 19.9995px;
+
+                                        .edit{
+                                            background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/HBA4XTLmLTE.png?_nc_eui2=AeHUVto8zAe0rm3glA8pYerfchvxYEi_8T5yG_FgSL_xPtor-mW_sJhrLR3rtVnnVub0B6ilnrXG725WZu3eudYI);
+                                            background-position: 0px -294px;
+                                            background-size: auto;
+                                            width: 20px;
+                                            height: 20px;
+                                            background-repeat: no-repeat;
+                                            display: inline-block;
+                                            vertical-align: -0.25em;
+                                        }
+                                        .trash{
+                                            background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/HBA4XTLmLTE.png?_nc_eui2=AeHUVto8zAe0rm3glA8pYerfchvxYEi_8T5yG_FgSL_xPtor-mW_sJhrLR3rtVnnVub0B6ilnrXG725WZu3eudYI);
+                                            background-position: 0px -483px;
+                                            background-size: auto;
+                                            width: 20px;
+                                            height: 20px;
+                                            background-repeat: no-repeat;
+                                            display: inline-block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -87,6 +138,13 @@
                         width: 100%;
                         height: 100%;
                         object-fit: cover;
+                    }
+                    iframe{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border: none;
+                        overflow: hidden;
                     }
                 }
             }

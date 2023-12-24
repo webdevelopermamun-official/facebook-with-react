@@ -5,8 +5,12 @@ import { LiaTimesSolid } from "react-icons/lia"
 import { PiShareFatThin } from "react-icons/pi"
 
 import "./UserPost.scss"
+import SmallModal from "../smallModal/smallModal"
+import { Link } from "react-router-dom"
 
-const UserPost = ({postContent, postImages}) => {
+const UserPost = ({postContent, postImages, postVideo, postDelete, postEdit, smallModal, setSmallModal }) => {
+
+
   return (
     <>
         <div className="user-post-area">
@@ -22,15 +26,57 @@ const UserPost = ({postContent, postImages}) => {
                     </div>
                     </div>
                     <div className="post-future-info">
-                    <a href=""><HiDotsHorizontal /></a>
-                    <a href=""><LiaTimesSolid /></a>
+                        <div className="post-edit-all-future">
+                            <Link onClick={() => setSmallModal(true)}><HiDotsHorizontal /></Link>
+
+                            {
+                                smallModal &&
+                                <SmallModal hide={setSmallModal}>
+                                    <div className="post-future-item">
+                                        <ul>
+                                            <li>
+                                                <Link onClick={postEdit}>
+                                                    <span className="edit"></span>
+                                                    <span>Edit post</span>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link onClick={postDelete}>
+                                                    <span className="trash"></span>
+                                                    <span>Move to trash</span>
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </SmallModal>
+                            }
+                            
+                        </div>
+                        <a onClick={postDelete}><LiaTimesSolid /></a>
                     </div>
                 </div>
                 <div className="post-wraper">
-                    <p>{postContent}</p>
-                    <div className="new-post-imagess">
-                    <img src={postImages} alt="" />
-                    </div>
+                    {
+                        postContent &&
+                        <p>{postContent}</p>
+                    }
+                    {
+                        postImages && 
+                        <div className="new-post-imagess">
+                            <img src={postImages} alt="" />
+                        </div>
+                    }
+                    {
+                        postVideo && 
+                        <div className="new-post-imagess">
+                            <iframe
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen                            
+                                src={`https://www.youtube.com/embed/${postVideo.split('=')[1]}`}
+                            ></iframe>
+                        </div>
+                    }
+
                 </div>
                 <div className="post-full-reactions-area">
                     <div className="post-reactions">

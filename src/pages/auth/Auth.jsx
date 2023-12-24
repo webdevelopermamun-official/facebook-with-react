@@ -8,12 +8,13 @@ import ModalPopup from "../../components/ModalPopup/ModalPopup";
 
 
 const Auth = () => {
-  const [popupModal, setPopupModal] = useState(false)
+  const [popupModal, setPopupModal] = useState(false);
+
+
   return (
     <>
     {
       popupModal &&
-
       <ModalPopup title="Sign Up" shortDsc = "Its quick and easy." hide= {setPopupModal}>
           <div className="signup-form-area">
             <form action="">
@@ -221,6 +222,11 @@ const Auth = () => {
           <p>Meta © 2023</p>
         </div>
       </section>
+      <p>
+
+
+
+      </p>
     </>
   )
 }

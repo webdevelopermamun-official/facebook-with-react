@@ -1,0 +1,39 @@
+.small-modal{
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    background-color: #fff;
+    width: 344px;
+    -webkit-filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.2));
+    padding: 15px 8px;
+    border-radius: 5px;
+
+    &::before{
+        content: "";
+        position: absolute;
+        right: -10px;
+        top: -14px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-right: 19px solid transparent;
+        border-left: 19px solid transparent;
+        border-bottom: 33px solid #ffffff;
+        border-top: 0;
+        transform: rotate(34deg);
+
+    }
+
+    .hide{
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        border: none;
+        background-color: transparent;
+        font-size: 18px;
+        height: fit-content;
+        width: fit-content;
+    }
+
+
+}
