@@ -7,10 +7,11 @@ import { PiShareFatThin } from "react-icons/pi"
 import "./UserPost.scss"
 import SmallModal from "../smallModal/smallModal"
 import { Link } from "react-router-dom"
+import { useState } from "react"
 
-const UserPost = ({postContent, postImages, postVideo, postDelete, postEdit, smallModal, setSmallModal }) => {
+const UserPost = ({postContent, postImages, postVideo, postDelete, postEdit }) => {
 
-
+    const [smallPopup, setSmallPopup] = useState(false)
   return (
     <>
         <div className="user-post-area">
@@ -27,11 +28,10 @@ const UserPost = ({postContent, postImages, postVideo, postDelete, postEdit, sma
                     </div>
                     <div className="post-future-info">
                         <div className="post-edit-all-future">
-                            <Link onClick={() => setSmallModal(true)}><HiDotsHorizontal /></Link>
-
+                            <Link onClick={() => setSmallPopup(true)}><HiDotsHorizontal /></Link>
                             {
-                                smallModal &&
-                                <SmallModal hide={setSmallModal}>
+                                smallPopup &&
+                                <SmallModal hide={setSmallPopup}>
                                     <div className="post-future-item">
                                         <ul>
                                             <li>

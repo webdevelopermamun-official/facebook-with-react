@@ -21,7 +21,6 @@ import Swal from "sweetalert2";
 const Home = () => {
   const [postModal, setPostModal] = useState(false);
   const [postEditModal, setPostEditModal] = useState(false);
-  const [hideSmallModal, setHideSmallModal] = useState(false);
   const [showPostPhotoField, setShowPhotoField] = useState(false);
   const [showPostVideoField, setShowVideoField] = useState(false);
   const [allPost, setAllPost] = useState([]);
@@ -50,8 +49,8 @@ const Home = () => {
   const handleShowPhotoField = () => {
     setShowPhotoField(true)
     setShowVideoField(false)
-
   }
+
 
   // get all posts
   const getAllpostData = async() => {
@@ -78,7 +77,7 @@ const Home = () => {
           icon: "success"
         });
         getAllpostData();
-        setHideSmallModal(false)
+        
       }
     });
   }
@@ -86,8 +85,19 @@ const Home = () => {
   // handle modal input field reset
   const handleModalEditHide = () => {
     setPostEditModal(false);
-    setHideSmallModal(false);
     setShowPhotoField(false);
+    setShowVideoField(false);
+    setPostInput({
+      postContent: "",
+      photo: "",
+      video: ""
+    });
+  };
+  // handle modal input field reset
+  const handleModalPostHide = () => {
+    setPostModal(false);
+    setShowPhotoField(false);
+    setShowVideoField(false);
     setPostInput({
       postContent: "",
       photo: "",
@@ -102,7 +112,7 @@ const Home = () => {
     if(getCerrentPostData.photo){
       setShowPhotoField(true)
     }else if(getCerrentPostData.video){
-      setShowPhotoField(true)
+      setShowVideoField(true)
     }
     setPostInput(getCerrentPostData);
     setPostEditModal(true);
@@ -145,6 +155,7 @@ const Home = () => {
       });
       getAllpostData();
       setPostModal(false);
+      handleModalPostHide();
       
     });
   };
@@ -303,7 +314,7 @@ const Home = () => {
 
                 allPost.length === 0 ? <h2 style={{padding: "20px 0", textAlign: "center", fontSize: "50px"}}>No Post Fount</h2> :
                 allPost.map((postData, item) => (
-                <UserPost key={item} postImages={postData.photo} postContent={postData.postContent} postVideo={postData.video} postDelete= {() => haandlePostDelete(postData.id)} postEdit = {() => handlePostEdit(postData.id)} smallModal= {hideSmallModal} setSmallModal={setHideSmallModal} />))
+                <UserPost key={item} postImages={postData.photo} postContent={postData.postContent} postVideo={postData.video} postDelete= {() => haandlePostDelete(postData.id)} postEdit = {() => handlePostEdit(postData.id)} />))
 
               }{/* user post area end here */}
 
@@ -432,7 +443,7 @@ const Home = () => {
 
       {
         postModal &&
-        <ModalPost hide={setPostModal} title="Create post">
+        <ModalPost hide={handleModalPostHide} title="Create post">
           <div className="post-popup-content">
             <form onSubmit={newPostUpload}>
               <div className="post-auth-info">
@@ -465,7 +476,7 @@ const Home = () => {
                 </div>
               }
               {
-                showPostPhotoField &&
+                showPostVideoField &&
                 <div className="post-video-box">
                   <input name="video" value={postInput.video} onChange={handlePostFieldValueChange} type="text" placeholder="Video url" />
                 </div>
@@ -543,12 +554,14 @@ const Home = () => {
               {
                 showPostPhotoField && 
                 <div className="post-photo-box">
-                  <input name="photo" value={postInput.photo} onChange={handlePostFieldValueChange} type="text" placeholder="Photo Url" />
+                  <label style={{padding: "10px 0 15px", display: "block"}} htmlFor="">Photo Url <span style={{color: "red"}}>*</span></label>
+                  <input  name="photo" value={postInput.photo} onChange={handlePostFieldValueChange} type="text" placeholder="Photo Url" />
                 </div>
               }
               {
                 showPostVideoField &&
                 <div className="post-video-box">
+                  <label style={{padding: "10px 0 15px", display: "block"}} htmlFor="">Video Url <span style={{color: "red"}}>*</span></label>
                   <input name="video" value={postInput.video} onChange={handlePostFieldValueChange} type="text" placeholder="Video url" />
                 </div>
               }
